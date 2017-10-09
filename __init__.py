@@ -4,7 +4,11 @@ bracket-matcher --- autocomplete [], (), {}, "", '', “”, ‘’, «», ‹�
 __author__ = "Marco Laspe"
 __pluginname__ = "Bracket Matcher"
 __copyright__ = "Copyright 2017"
-__credits__ = ["Marco Laspe", "Andrei Kopats", "Filipe Azevedo", "Bryan A. Jones"]
+__credits__ = [
+    "Marco Laspe",
+    "Andrei Kopats",
+    "Filipe Azevedo",
+    "Bryan A. Jones"]
 __license__ = "GPL3"
 __version__ = "0.0.1"
 __maintainer__ = "Marco Laspe"
@@ -17,12 +21,9 @@ __status__ = "Beta"
 
 
 from PyQt5.QtCore import QObject, QEvent, Qt
-from PyQt5.QtWidgets import (QWidget, QCheckBox, QVBoxLayout, QSpacerItem,
-                             QSizePolicy, QLabel)
 from PyQt5.QtGui import QTextCursor
 
 from enki.core.core import core
-from enki.core.uisettings import CheckableOption
 
 # DONE Settings page
 # DONE adhere to settings page
